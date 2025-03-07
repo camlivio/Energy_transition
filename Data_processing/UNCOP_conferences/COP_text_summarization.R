@@ -27,7 +27,7 @@ install.packages("openxlsx")
 library(openxlsx)
 
 ###### Save the data to disk
-write.csv(cop_summaries, "/Users/camilalivio/Desktop/cop_summaries.csv", row.names = FALSE)
+write.csv(cop_summaries, "path/cop_summaries.csv", row.names = FALSE)
 
 ####### now that we have the summaries, let's try mall's text extraction feature
 
